@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "./logo.module.css";
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-gray-800 border-b-[2px] border-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
@@ -15,7 +15,9 @@ const Navbar = () => {
                   width={50}
                   height={50}
                 ></Image>
-                <h1>Robinson Painting & Decorators</h1>
+                <h1 className="font-serif text-2xl text-white">
+                  Robinson Painting & Decorators
+                </h1>
               </div>
             </div>
           </div>
@@ -26,7 +28,7 @@ const Navbar = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/about">
+              <Link href="/#about">
                 <span className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
                   About
                 </span>
