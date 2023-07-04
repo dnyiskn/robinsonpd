@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,19 +9,13 @@ const Footer = () => {
           <div className="block">
             <div className=" flex items-baseline space-x-4">
               <Link href="/">
-                <span className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
-                  Home
-                </span>
+                <FaFacebook color="white" />
               </Link>
               <Link href="/#about">
-                <span className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
-                  About
-                </span>
+                <FaTwitter color="white" />
               </Link>
               <Link href="/#contact">
-                <span className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
-                  Contact
-                </span>
+                <FaInstagram color="white" />
               </Link>
             </div>
           </div>
