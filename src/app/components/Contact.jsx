@@ -39,15 +39,16 @@ export default function NewContactForm() {
   return (
     <div className="max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center">
-        <h3>Get in Touch!</h3>
+        <h3 className="text-3xl font-semibold">Get in Touch!</h3>
       </div>
       <div>
         <form onSubmit={handleSubmit}>
-          <div className="w-full flex flex-col my-4" id="contact">
-            <label className="font-bold text-gray-800" htmlFor="name">
-              Name:
-            </label>
+          <div
+            className="w-full flex flex-col my-4 shadow rounded"
+            id="contact"
+          >
             <input
+              placeholder="Whats your name?"
               type="text"
               minLength={3}
               maxLength={150}
@@ -57,11 +58,9 @@ export default function NewContactForm() {
               id="name"
             />
           </div>
-          <div className="w-full flex flex-col my-4">
-            <label className="font-bold text-gray-800" htmlFor="email">
-              Email:
-            </label>
+          <div className="w-full flex flex-col my-4 shadow rounded">
             <input
+              placeholder="Whats your email?"
               type="email"
               minLength={5}
               maxLength={150}
@@ -71,11 +70,9 @@ export default function NewContactForm() {
               id="email"
             />
           </div>
-          <div>
-            <label className="font-bold text-gray-800" htmlFor="message">
-              Message:
-            </label>
+          <div className="shadow rounded">
             <textarea
+              placeholder="How can we help you?"
               rows={4}
               required
               minLength={10}
@@ -88,7 +85,7 @@ export default function NewContactForm() {
             <button
               type="submit"
               disabled={loading}
-              className="px-4 py-2 w-40 bg-gray-700 disabled:bg-gray-400 disabled:text-gray-100 text-white font-medium mt-4"
+              className="px-4 py-2 w-40 bg-blue-950 text-white font-medium rounded mt-4"
             >
               Send Message
             </button>
