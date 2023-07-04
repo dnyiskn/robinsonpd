@@ -10,7 +10,7 @@ const HeroImage = () => {
           height: "100vh",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-30"></div>
+        <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative text-center">
           <h1 className="text-4xl font-bold text-white">
             Robinson Painting & Decorators
@@ -18,7 +18,7 @@ const HeroImage = () => {
           <p className="mt-4 text-lg text-gray-300">
             Quality is remembered long after the price is forgotten
           </p>
-          <Link href="/contact">
+          <Link href="/#contact">
             <span className="inline-block bg-blue-950 hover:bg-blue-600 text-white font-semibold px-6 py-3 mt-8 rounded cursor-pointer">
               Get an Estimate
             </span>

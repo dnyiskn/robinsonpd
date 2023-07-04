@@ -5,6 +5,7 @@
 html,
 body {
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 /* Responsive styles for small devices */
 @media (max-width: 767px) {

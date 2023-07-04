@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="py-16 bg-gray-100" id="about">
+    <div className="py-16 bg-gray-100 text-center" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-3xl font-semibold text-gray-900">About Us</h2>
@@ -17,7 +17,7 @@ const AboutUs = () => {
           <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex justify-center">
                   <Image
                     src="/images/paulbio.jpeg" // Replace with the actual path to the image
                     alt="Paul Robinson Jr"
@@ -26,7 +26,7 @@ const AboutUs = () => {
                     className="rounded-full"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-medium text-gray-900">
+                <h3 className="mt-4 text-lg font-medium text-gray-900 text-center">
                   Paul Robinson Jr
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
@@ -53,7 +53,7 @@ const AboutUs = () => {
 
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <div className="px-4 py-5 sm:p-6">
-                <div className="flex-shrink-0">
+                <div className="flex flex-shrink-0 justify-center">
                   <Image
                     src="/images/lindseybio.jpeg"
                     alt="Person 2"
@@ -62,7 +62,7 @@ const AboutUs = () => {
                     className="rounded-full"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-medium text-gray-900">
+                <h3 className="mt-4 text-lg font-medium text-gray-900 text-center">
                   Lindsey Robinson
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
