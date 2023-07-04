@@ -23,9 +23,9 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/">
+              <Link href="/#services">
                 <span className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
-                  Home
+                  Services
                 </span>
               </Link>
               <Link href="/#about">
