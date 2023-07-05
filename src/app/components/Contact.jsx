@@ -39,7 +39,7 @@ export default function NewContactForm() {
   return (
     <div className="max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center">
-        <h3 className="text-3xl font-semibold">Get in Touch!</h3>
+        <h3 className="text-3xl font-semibold">Tell us about your project</h3>
       </div>
       <div>
         <form onSubmit={handleSubmit}>
@@ -85,9 +85,9 @@ export default function NewContactForm() {
             <button
               type="submit"
               disabled={loading}
-              className="px-4 py-2 w-40 bg-blue-950 text-white font-medium rounded mt-4"
+              className="px-4 py-2 bg-blue-950 text-white font-medium rounded mt-4 whitespace-nowrap hover:bg-blue-900"
             >
-              Send Message
+              Submit estimate request
             </button>
           </div>
         </form>
