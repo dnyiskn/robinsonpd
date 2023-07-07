@@ -30,23 +30,23 @@ const AboutUs = () => {
                   Paul Robinson Jr
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                  “Hi my name is Paul Robinson. I am the owner of Robinson
-                  Painting & Decorators. My role in the business is the day to
-                  day operations. I will be on the job from start to finish
-                  personally making sure everything is done properly. I have
-                  been in the trade for 15 + years. I have done everything from
-                  residential home to submarines for the Navy. I believe in
-                  quality product for a quality price. I value the relationship
-                  with the customer and building a foundation to last.”
+                  “Hi my name is Paul Robinson, owner of Robinson Painting &
+                  Decorators. I have been in the trade for 15 + years with
+                  experience ranging from million dollar residential homes to
+                  billion dollar submarines for the Navy. Rest assured, I will
+                  be on the job from start to finish—personally making sure
+                  everything is done properly. I believe in a quality product
+                  for a quality price, and value relationship building with our
+                  customers - building a foundation to last.
                   <br />
-                  Paul has been married to his wife for 10 years and they share
-                  2 beautiful children. He enjoys football both college and
-                  professional. He is a dedicated Bostonian fan from football to
-                  hockey. When he’s not working to provide quality painting Paul
-                  also enjoys traveling and a great concert.
-                  <br />
-                  “My goal will always be to provide a life for my family while
-                  also providing a quality service to yours”
+                  Paul has been married to his wife for over a decade and they
+                  share two beautiful children. He is an avid football fan on
+                  both the college and professional level, and a dedicated
+                  Bostonian fan —everything from baseball to hockey. When he’s
+                  not working to provide quality painting, Paul also enjoys
+                  traveling and a great concert. “My goal will always be to
+                  provide a life for my family while also providing a quality
+                  service to yours.”
                 </p>
               </div>
             </div>
