@@ -22,7 +22,7 @@ export default async function ContactAPI(req, res) {
   try {
     const mail = await transporter.sendMail({
       from: user,
-      to: "info@disaksen.dev",
+      to: "paul@robinsonpaint.com",
       replyTo: email,
       subject: `New inquiry from ${name}`,
       html: `
